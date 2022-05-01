@@ -1,0 +1,6 @@
+## This rule redirects to an external API, signing requests with a secret
+[[redirects]]
+  from = "/tickets"
+  to = "https://tiqs.com/alfred/events/shop/759"
+  status = 302
+  force = true # COMMENT: ensure that we always redirect
